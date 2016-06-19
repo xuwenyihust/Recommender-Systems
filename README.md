@@ -8,7 +8,8 @@ The data set was extracted from the Yelp Phoenix restaurant dataset.
 
 Joint information about users & business.
 
-| Columns | Descriptions |
+| Column | Descriptions |
+| ----------------------|
 | user_id | Unique user id |
 | business_id |
 | date |
