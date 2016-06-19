@@ -27,3 +27,6 @@ Joint information about users & business.
 | user_review_count | Review count for this user |
 
 ### Goal
+
+1. Neighborhood-based CF recommender.
+
