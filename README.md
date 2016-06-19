@@ -29,7 +29,7 @@ Joint information about users & business.
 ### Goal
 
 1. Neighborhood-based CF recommender.
-* **Reduce the sparsity** of the original dataset by filtering out business with <= 150 review or users with <= 60 review.
+* * **Reduce the sparsity** of the original dataset by filtering out business with <= 150 review or users with <= 60 review.
 * Get the **common user support**(count of users who reviewed both) of each pair of restaurants.
 * Calculate the **similarity** between each pair of restaurants by using **Pearson correlation**.
 * Create a **DataBase** of similarities for each pair of restaurants using python class.
