@@ -36,7 +36,7 @@ Joint information about users & business.
 * Create a **DataBase** of similarities for each pair of restaurants *(global similar restautants)* using python class.
 *  Write a function to get **K-Nearest** restaurants of a given restaurant. *(shrink Pearson coefficients to control the effect of small common supports)*
 
- &ensp #### Flow of calculating similarity
+ #### Flow of calculating similarity
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/7127935/16394991/a6ff77c4-3c6c-11e6-9d83-d5b916c9d0b0.JPG" width="350"/>
 </p>
