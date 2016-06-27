@@ -42,6 +42,9 @@ Joint information about users & business.
   <img src="https://cloud.githubusercontent.com/assets/7127935/16396281/d66d9f30-3c72-11e6-82bb-4ebce2dd13e2.JPG" width="450"/>
 </p>
 
-### 2. User based recommender with predicted ratings
+### 2. User based recommender with predicted ratings 
+*Given a user & a restaurant, predict the rating of that restaurant of that specific user*
+
+* Find the K nearest neighbors from 
 
 ### 3. Bayesian Chocolates: Model based recommendations
