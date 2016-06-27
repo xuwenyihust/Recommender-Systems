@@ -47,5 +47,6 @@ Joint information about users & business.
 
 * Find the K nearest neighbors from restaurants which have been rated by this user.
     * Filter out restaurants rated by this user.
+    * Reuse the knearest function from partI using the filtered rather than whole restaurant set as parameter.
 
 ### 3. Bayesian Chocolates: Model based recommendations
