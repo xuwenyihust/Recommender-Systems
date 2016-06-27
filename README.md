@@ -31,7 +31,7 @@ Joint information about users & business.
 ### Neighborhood-based CF(collaborative filtering) recommender
 
 * **Reduce the sparsity** of the original dataset by filtering out business with <= 150 review or users with <= 60 review.
-* Get the **common user support**(count of users who reviewed both) of each pair of restaurants.
-* Calculate the **similarity** between each pair of restaurants by using **Pearson correlation**(similarity measurement) based on common user support(if the common user support == 0, set similarity to 0, otherwise, calculate pearson's r).
-* Create a **DataBase** of similarities for each pair of restaurants(global similar restautants) using python class.
+* Get the **common user support** (count of users who reviewed both) of each pair of restaurants.
+* Calculate the **similarity** between each pair of restaurants by using **Pearson correlation** (similarity measurement) based on common user support (if the common user support == 0, set similarity to 0, otherwise, calculate pearson's r).
+* Create a **DataBase** of similarities for each pair of restaurants (global similar restautants) using python class.
 *  Write a function to get **K-Nearest** restaurants of a given restaurant. (shrink Pearson coefficients to control the effect of small common supports)
