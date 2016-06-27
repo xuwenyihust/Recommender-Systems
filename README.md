@@ -48,5 +48,8 @@ Joint information about users & business.
 * Find the K nearest neighbors from restaurants which have been rated by this user.
     * Filter out restaurants rated by this user.
     * Reuse the knearest function from partI using the filtered rather than whole restaurant set as parameter.
+* Calculate important variables and get the predicted rating.
+    * Baseline rating = Average rating + (User average - Average rating) + (Restaurant average - Average rating)
+    * Key idea of the prediction fomula: ratings on more similar restaurants will affect the predicted rating more.
 
 ### 3. Bayesian Chocolates: Model based recommendations
