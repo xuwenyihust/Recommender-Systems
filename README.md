@@ -33,5 +33,5 @@ Joint information about users & business.
 * **Reduce the sparsity** of the original dataset by filtering out business with <= 150 review or users with <= 60 review.
 * Get the **common user support**(count of users who reviewed both) of each pair of restaurants.
 * Calculate the **similarity** between each pair of restaurants by using **Pearson correlation**(similarity measurement) based on common user support.
-* Create a **DataBase** of similarities for each pair of restaurants using python class.
+* Create a **DataBase** of similarities for each pair of restaurants(global similar restautants) using python class.
 *  Write a function to get **K-Nearest** restaurants of a given restaurant. (shrink Pearson coefficients to control the effect of small common supports)
