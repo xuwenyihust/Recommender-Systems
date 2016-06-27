@@ -46,6 +46,6 @@ Joint information about users & business.
 *Given a user & a restaurant, predict the rating of that restaurant of that specific user*
 
 * Find the K nearest neighbors from restaurants which have been rated by this user.
-* * Filter out restaurants rated by this user.
+** Filter out restaurants rated by this user.
 
 ### 3. Bayesian Chocolates: Model based recommendations
