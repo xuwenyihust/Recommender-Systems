@@ -35,5 +35,7 @@ Joint information about users & business.
 * Calculate the **similarity** between each pair of restaurants by using **Pearson correlation** *(similarity measurement)* based on common user support *(if the common user support == 0, set similarity to 0, otherwise, calculate pearson's r)*.
 * Create a **DataBase** of similarities for each pair of restaurants *(global similar restautants)* using python class.
 *  Write a function to get **K-Nearest** restaurants of a given restaurant. *(shrink Pearson coefficients to control the effect of small common supports)*
+
 #### Flow of calculatinf similarity
+
 ![alt tag](https://cloud.githubusercontent.com/assets/7127935/16394991/a6ff77c4-3c6c-11e6-9d83-d5b916c9d0b0.JPG)
