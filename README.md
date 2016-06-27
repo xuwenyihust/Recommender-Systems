@@ -40,3 +40,7 @@ Joint information about users & business.
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/7127935/16394991/a6ff77c4-3c6c-11e6-9d83-d5b916c9d0b0.JPG" width="350"/>
 </p>
+
+### 2. User based recommender with predicted ratings
+
+### 3. Bayesian Chocolates: Model based recommendations
