@@ -33,7 +33,7 @@ Joint information about users & business.
 
 * **Reduce the sparsity** of the original dataset by filtering out business with <= 150 review or users with <= 60 review.
 * Get the **common user support** *(count of users who reviewed both)* of each pair of restaurants.
-* Calculate the **similarity** between each pair of restaurants by using **Pearson correlation** *(similarity measurement)* based on common user support.
+* Calculate the **similarity** between each pair of restaurants by using **Pearson correlation** *(similarity measurement)*.
     * Use module scipy.stats.stats.
     * If the common user support == 0, set similarity to 0, otherwise, calculate pearson's r.
 * Create a **DataBase** of similarities for each pair of restaurants *(global similar restautants)* 
