@@ -29,7 +29,7 @@ Joint information about users & business.
 ## Goal
 
 ### 1. Neighborhood-based CF(collaborative filtering) recommender
-* **Global** similar items*
+*Global similar items*
 
 * **Reduce the sparsity** of the original dataset by filtering out business with <= 150 review or users with <= 60 review.
 * Get the **common user support** *(count of users who reviewed both)* of each pair of restaurants.
