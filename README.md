@@ -37,6 +37,8 @@ Joint information about users & business.
     * Use module scipy.stats.stats.
     * Based on reviewers who have reviewed both restaurants.
     * If the common user support == 0, set similarity to 0, otherwise, calculate pearson's r.
+* Write a function to provide the **common reviewers** who have reviewed both restaurants in a given pair.
+    * Then we can separately pick out the reviews by common reviewers for restaurants in a pair. 
 * Create a **DataBase** of similarities for each pair of restaurants *(global similar restautants)* 
     * Use python class.
     * Use nested loop to calculate similarity between each restaurant pairs.
