@@ -73,9 +73,6 @@ Joint information about users & business.
     * **Baseline** rating = Average rating + (User average - Average rating) + (Restaurant average - Average rating)
     * Key idea of the prediction fomula: ratings on more similar restaurants will affect the predicted rating more.
 
-### 3. Bayesian Chocolates: Model based recommendations
-
-<br/>
 
 ## Resources
 
