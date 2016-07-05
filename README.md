@@ -53,7 +53,7 @@ Joint information about users & business.
     * Use nested loop to calculate similarity between each restaurant pairs.
     * Write a function to enable fetching similarity by providing names of restaurants. 
 * Write a function to get **K-Nearest** restaurants of a given restaurant. *(shrink Pearson coefficients to control the effect of small common supports)*
-    * Not KNN, we've already created the database for all similarities, just fetch them to use.
+    * Not KNN for classification, we've already created the database for all similarities, just fetch them to use.
 * **Sort** the K nearest restaurants to get the top N recommendations.
 
  #### Flow of calculating similarity between restaurants in a pair *&* K nearset restaurants
