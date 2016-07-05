@@ -65,3 +65,7 @@ Joint information about users & business.
     * Key idea of the prediction fomula: ratings on more similar restaurants will affect the predicted rating more.
 
 ### 3. Bayesian Chocolates: Model based recommendations
+
+## Resources
+[Official content for Harvard CS109](https://github.com/cs109/content)
+
