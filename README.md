@@ -26,6 +26,14 @@ Joint information about users & business.
 | user_avg | Average rating for this user over all businesses |
 | user_review_count | Review count for this user |
 
+## Libraries
+* pandas
+* matplotlib
+* sklearn
+* numpy
+* scipy
+* operator
+
 ## Goal
 
 ### 1. Neighborhood-based CF(collaborative filtering) recommender
@@ -66,6 +74,9 @@ Joint information about users & business.
 
 ### 3. Bayesian Chocolates: Model based recommendations
 
+<br/>
+
 ## Resources
+
 [Official content for Harvard CS109](https://github.com/cs109/content)
 
