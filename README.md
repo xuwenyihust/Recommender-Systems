@@ -55,7 +55,7 @@ Joint information about users & business.
 * Write a function to get **K-Nearest** restaurants of a given restaurant. *(shrink Pearson coefficients to control the effect of small common supports)*
     * Not KNN for classification, we've already created the database for all similarities, just fetch them to use.
 * **Sort** the K nearest restaurants to get the top N recommendations.
-* Finally, find the *user's top rated restaurants*, find the *nearest neighbors* of these restaurants, *merge* these lists while removing the duplicates and the ones that the user has already rated, and sort by the restaurant's average rating. 
+* Finally, find the **user's top rated restaurants**, find the **nearest neighbors** of these restaurants, **merge** these lists while removing the duplicates and the ones that the user has already rated, and sort by the restaurant's average rating. 
 
  #### Flow of calculating similarity between restaurants in a pair *&* K nearset restaurants
 <p align="justify">
