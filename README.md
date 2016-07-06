@@ -2,6 +2,11 @@
 
 # Restaurant-Recommendation-System
 <br/>
+
+## Implementations
+* [Havard CS 09 HW4](https://github.com/xuwenyihust/Restaurant-Recommendation-System/tree/master/harvard_cs%20_09_hw4)
+* Collaborative Filtering
+
 ## Data
 The data set was extracted from the Yelp Phoenix restaurant dataset. 
 
