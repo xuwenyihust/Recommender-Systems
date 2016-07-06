@@ -37,4 +37,5 @@ Joint information about users & business.
 ## Resources
 
 [Official content for Harvard CS109](https://github.com/cs109/content)
+
 [Recommender systems](http://www.ibm.com/developerworks/library/os-recommender2/index.html)
