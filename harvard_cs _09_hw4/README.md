@@ -1,4 +1,4 @@
-#My own solution to Harvard CS 109 HW4.
+#My own solution to Harvard CS 109 HW4
 
 ## Goal
 
@@ -38,3 +38,11 @@
 * Calculate important variables and get the **predicted rating**.
     * **Baseline** rating = Average rating + (User average - Average rating) + (Restaurant average - Average rating)
     * Key idea of the prediction fomula: ratings on more similar restaurants will affect the predicted rating more.
+
+## Libraries Used
+* [pandas](http://pandas.pydata.org/)
+* [matplotlib](http://matplotlib.org/)
+* [sklearn](http://scikit-learn.org/stable/)
+* [numpy](http://www.numpy.org/)
+* [scipy](https://www.scipy.org/)
+* [operator](https://docs.python.org/3/library/operator.html)
