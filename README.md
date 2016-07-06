@@ -26,13 +26,13 @@ Joint information about users & business.
 | user_avg | Average rating for this user over all businesses |
 | user_review_count | Review count for this user |
 
-## Libraries
-* pandas
-* matplotlib
-* sklearn
-* numpy
-* scipy
-* operator
+## Libraries Used
+* [pandas](http://pandas.pydata.org/)
+* [matplotlib](http://matplotlib.org/)
+* [sklearn](http://scikit-learn.org/stable/)
+* [numpy](http://www.numpy.org/)
+* [scipy](https://www.scipy.org/)
+* [operator](https://docs.python.org/3/library/operator.html)
 
 ## Goal
 
