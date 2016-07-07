@@ -10,6 +10,7 @@ Different implementations of recommender system.
 
 ## Data
 * [Yelp Phoenix restaurant dataset](https://github.com/xuwenyihust/Restaurant-Recommendation-System/blob/master/data/bigdf.csv)
+* [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
 ## Libraries Used
 * [pandas](http://pandas.pydata.org/)
