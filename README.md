@@ -1,6 +1,6 @@
 ![Python 3.5](https://img.shields.io/badge/python-3.5-blue.svg)
 
-# Restaurant-Recommendation-System
+# Recommendation-Systems
 Different implementations of recommender system.
 <br/>
 
