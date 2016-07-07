@@ -6,7 +6,7 @@ Different implementations of recommender system.
 
 ## Implementations
 * [Havard CS 09 HW4](https://github.com/xuwenyihust/Restaurant-Recommendation-System/tree/master/harvard_cs%20_09_hw4)
-* User-Based Collaborative Filtering
+* [User-Based Collaborative Filtering](https://github.com/xuwenyihust/Recommendation-Systems/tree/master/user_based_cf)
 * Item-Based Collaborative Filtering
 
 ## Data
