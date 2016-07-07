@@ -6,7 +6,8 @@ Different implementations of recommender system.
 
 ## Implementations
 * [Havard CS 09 HW4](https://github.com/xuwenyihust/Restaurant-Recommendation-System/tree/master/harvard_cs%20_09_hw4)
-* Collaborative Filtering
+* User-Based Collaborative Filtering
+* Item-Based Collaborative Filtering
 
 ## Data
 * [Yelp Phoenix restaurant dataset](https://github.com/xuwenyihust/Restaurant-Recommendation-System/blob/master/data/bigdf.csv)
