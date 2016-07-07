@@ -13,6 +13,11 @@ Different implementations of recommender system.
 * [Yelp Phoenix restaurant dataset](https://github.com/xuwenyihust/Restaurant-Recommendation-System/blob/master/data/bigdf.csv)
 * [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
+## Comparison
+Compare the different implemntations.
+* Build the ROC curves.
+* The curve with the highest AUC value will show the best implementation.
+
 ## Libraries Used
 * [pandas](http://pandas.pydata.org/)
 * [matplotlib](http://matplotlib.org/)
