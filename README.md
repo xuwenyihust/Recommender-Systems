@@ -22,7 +22,7 @@ Different implementations of recommender system.
   <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
   <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_item.JPG" width="340"/>
 </p>
-'''python
+```python
 print(fulldf.shape)
 print(fulldf['UserId'].unique().shape)
 print(fulldf['ProductId'].unique().shape)
@@ -30,7 +30,7 @@ print(fulldf['ProductId'].unique().shape)
 (20000, 10)
 (17677,)
 (2657,)
-'''
+```
 The Amazon dataset is even more sparse than the Yelp dataset, and have much more users than items. Not fitted for the collaborative filtering.
 
 ## Comparison
