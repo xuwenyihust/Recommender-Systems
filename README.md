@@ -16,7 +16,10 @@ Different implementations of recommender system.
 ### Data Sparsity
 
 **Yelp Dataset**:
-
+<p align="justify">
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/yelp_sparsity_user.JPG" width="350"/>
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/yelp_sparsity_restaurant.JPG" width="340"/>
+</p>
 ```python
 >>> fulldf=pd.read_csv("https://raw.githubusercontent.com/xuwenyihust/Recommendation-Systems/master/data/bigdf.csv")
 >>> print(fulldf.shape)
