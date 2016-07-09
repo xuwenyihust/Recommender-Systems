@@ -12,6 +12,14 @@ Different implementations of recommender system.
 ## Data
 * [Yelp Phoenix restaurant dataset](https://github.com/xuwenyihust/Restaurant-Recommendation-System/blob/master/data/bigdf.csv)
 * [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews)
+### Data Sparsity
+Yelp Dataset:
+
+Amazon Dataset:
+<p align="justify">
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity0.JPG" width="350"/>
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity1.JPG" width="450"/>
+</p>
 
 ## Comparison
 Compare the different implemntations.
