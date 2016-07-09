@@ -15,13 +15,14 @@ Different implementations of recommender system.
 
 ### Data Sparsity
 
-Yelp Dataset:
+**Yelp Dataset**:
 
-Amazon Dataset:
+**Amazon Dataset**:
 <p align="justify">
   <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
   <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_item.JPG" width="340"/>
 </p>
+The Amazon dataset is even more sparse than the Yelp dataset, and have much more users than items. Not fitted for the collaborative filtering.
 
 ## Comparison
 Compare the different implemntations.
