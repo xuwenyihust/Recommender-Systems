@@ -15,13 +15,34 @@ Different implementations of recommender system.
 
 ### Data Sparsity
 
-Yelp Dataset:
+**Yelp Dataset**:
 
-Amazon Dataset:
+```python
+>>> fulldf=pd.read_csv("https://raw.githubusercontent.com/xuwenyihust/Recommendation-Systems/master/data/bigdf.csv")
+>>> print(fulldf.shape)
+(149319, 15)
+>>> print(fulldf['user_id'].unique().shape)
+(34789,)
+>>> print(fulldf['business_id'].unique().shape)
+(4503,)
+```
+
+**Amazon Dataset**:
 <p align="justify">
-  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity0.JPG" width="350"/>
-  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity1.JPG" width="340"/>
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_item.JPG" width="340"/>
 </p>
+```python
+>>> fulldf=pd.read_csv("https://raw.githubusercontent.com/xuwenyihust/Recommendation-Systems/master/data/amazon-fine-foods.csv")
+>>> fulldf = fulldf[:20000]
+>>> print(fulldf.shape)
+(20000, 10)
+>>> print(fulldf['UserId'].unique().shape)
+(17677,)
+>>> print(fulldf['ProductId'].unique().shape)
+(2657,)
+```
+The Amazon dataset is even more sparse than the Yelp dataset, and have much more users than items. Not fitted for the collaborative filtering.
 
 ## Comparison
 Compare the different implemntations.
