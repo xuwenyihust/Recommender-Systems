@@ -16,7 +16,10 @@ Different implementations of recommender system.
 ### Data Sparsity
 
 **Yelp Dataset**:
-
+<p align="justify">
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/yelp_sparsity_user.JPG" width="350"/>
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/yelp_sparsity_restaurant.JPG" width="340"/>
+</p>
 ```python
 >>> fulldf=pd.read_csv("https://raw.githubusercontent.com/xuwenyihust/Recommendation-Systems/master/data/bigdf.csv")
 >>> print(fulldf.shape)
@@ -26,6 +29,7 @@ Different implementations of recommender system.
 >>> print(fulldf['business_id'].unique().shape)
 (4503,)
 ```
+Most users reviewed on less than 20 item. And most items have less than 20 reviews. Need to reduce the sparsity.
 
 **Amazon Dataset**:
 <p align="justify">
