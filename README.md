@@ -29,6 +29,7 @@ Different implementations of recommender system.
 >>> print(fulldf['business_id'].unique().shape)
 (4503,)
 ```
+Most users reviewed on less than 20 item. And most items have less than 20 reviews. Need to reduce the sparsity.
 
 **Amazon Dataset**:
 <p align="justify">
