@@ -19,8 +19,8 @@ Yelp Dataset:
 
 Amazon Dataset:
 <p align="justify">
-  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity0.JPG" width="350"/>
-  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity1.JPG" width="340"/>
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
+  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="340"/>
 </p>
 
 ## Comparison
