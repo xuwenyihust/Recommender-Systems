@@ -23,6 +23,8 @@ Different implementations of recommender system.
   <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_item.JPG" width="340"/>
 </p>
 ```python
+>>> fulldf=pd.read_csv("https://raw.githubusercontent.com/xuwenyihust/Recommendation-Systems/master/data/amazon-fine-foods.csv")
+>>> fulldf = fulldf[:20000]
 >>> print(fulldf.shape)
 (20000, 10)
 >>> print(fulldf['UserId'].unique().shape)
