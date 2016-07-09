@@ -17,6 +17,16 @@ Different implementations of recommender system.
 
 **Yelp Dataset**:
 
+```python
+>>> fulldf=pd.read_csv("https://raw.githubusercontent.com/xuwenyihust/Recommendation-Systems/master/data/bigdf.csv")
+>>> print(fulldf.shape)
+(149319, 15)
+>>> print(fulldf['user_id'].unique().shape)
+(34789,)
+>>> print(fulldf['business_id'].unique().shape)
+(4503,)
+```
+
 **Amazon Dataset**:
 <p align="justify">
   <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
