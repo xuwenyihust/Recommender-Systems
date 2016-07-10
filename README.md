@@ -50,13 +50,19 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
 
 ## Systems
 ### User Based Collaborative Filtering
-* Find Similar Users
+* Find **Similar** Users
     * Reduce the **sparsity** of the original dataset.
     * Split the **train/test** data.
     * Define the function to compute **user-to-user similarity**.
     * Add **'regularization'** parameter to improve the similarity.
     * Define the function to pick out **K nearest users** to a user.
-* Predict Ratings
+
+* Make **Recommendations**
+    * Choose n top rated items of each of the K nearest users
+    * Combine them, remove dupilicates and sort.
+
+* **Predict Ratings** for these recommendations
+    * Define a new function which returns K nearest users that have rated this item given a user & a item as parameters.
     * Weighted average of the neighboring user's ratings.
     
       ![equation](http://www.sciweavers.org/tex2img.php?eq=%20P_%7Bu%2Ci%7D%20%3D%20%20%20P%5E%7Bbaseline%7D_%7Bu%2Ci%7D%20%2B%20%20%5Cfrac%7B%20%5Csum%20s_%7Bj%7D%20%2A%20%28P_%7Bu%2Cj%7D%20-%20P%5E%7Bbaseline%7D_%7Bu%2Ci%7D%29%20%7D%7B%20%5Csum%20s_%7Bj%7D%20%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
@@ -65,7 +71,6 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     
       Baseline = all_mean + (user_mean - all_mean) + (item_mean - all_mean)
 
-* Make Recommendations
 
 ## Comparison
 Compare the different implemntations.
