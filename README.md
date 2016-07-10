@@ -53,7 +53,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
 * Find **Similar** Users
     * Reduce the **sparsity** of the original dataset.
     * Split the **train/test** data.
-    * Define the function to compute **user-to-user similarity**.
+    * Define the function to compute **user-to-user similarity** (*Pearson coefficient correlation*).
     * Add **'regularization'** parameter to improve the similarity.
     * Define the function to pick out **K nearest users** to a user.
 
