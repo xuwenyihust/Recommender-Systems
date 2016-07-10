@@ -57,9 +57,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Add **'regularization'** parameter to improve the similarity.
     * Define the function to pick out **K nearest users** to a user.
 * Predict Ratings
-> <p align="justify">
-> <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
-> </p>
+![equation](http://www.sciweavers.org/tex2img.php?eq=%20P_%7Bu%2Ci%7D%20%3D%20%20x%5E%7Bbaseline%7D_%7Bu%2Ci%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 * Make Recommendations
 
 ## Comparison
