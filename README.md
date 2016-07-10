@@ -66,6 +66,10 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Baseline prediction.
     
       Baseline = all_mean + (user_mean - all_mean) + (item_mean - all_mean)
+      
+* **Error** Analysis
+    * Pick a number of random users and items we have the ratings in test dataset.
+    * Calculate the **RMSE**.
 
 ### Item Based Collaborative Filtering
 
