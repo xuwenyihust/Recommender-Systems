@@ -50,7 +50,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
 
 ## Systems
 ### User Based Collaborative Filtering
-* Similar Users
+* Find Similar Users
     * Reduce the **sparsity** of the original dataset.
     * Split the **train/test** data.
     * Define the function to compute **user-to-user similarity**.
