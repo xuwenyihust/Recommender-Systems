@@ -57,10 +57,6 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Add **'regularization'** parameter to improve the similarity.
     * Define the function to pick out **K nearest users** to a user.
 
-* Make **Recommendations**
-    * Choose n top rated items of each of the K nearest users.
-    * Combine them, remove dupilicates and sort.
-
 * **Predict Ratings** for these recommendations
     * Define a new function which returns K nearest users that have rated this item given a user & a item as parameters.
     * Weighted average of the neighboring user's ratings.
@@ -71,6 +67,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     
       Baseline = all_mean + (user_mean - all_mean) + (item_mean - all_mean)
 
+### Item Based Collaborative Filtering
 
 ## Comparison
 Compare the different implemntations.
