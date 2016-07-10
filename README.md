@@ -58,8 +58,8 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Define the function to pick out **K nearest users** to a user.
 * Predict Ratings
 > <p align="justify">
-  <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
-</p>
+> <img src="https://github.com/xuwenyihust/Recommendation-Systems/blob/master/images/amazon_sparsity_user.JPG" width="350"/>
+> </p>
 * Make Recommendations
 
 ## Comparison
