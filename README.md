@@ -58,7 +58,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Define the function to pick out **K nearest users** to a user.
 
 * Make **Recommendations**
-    * Choose n top rated items of each of the K nearest users
+    * Choose n top rated items of each of the K nearest users.
     * Combine them, remove dupilicates and sort.
 
 * **Predict Ratings** for these recommendations
