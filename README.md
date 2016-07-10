@@ -83,7 +83,7 @@ Compare the different implemntations.
 * [sklearn](http://scikit-learn.org/stable/)
 * [numpy](http://www.numpy.org/)
 * [scipy](https://www.scipy.org/)
-* [operator](https://docs.python.org/3/library/operator.html)
+* [operator](https://docs.python.org/3/library/operator.html) 
 
 
 ## Resources
