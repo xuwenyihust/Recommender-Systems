@@ -62,6 +62,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
       ![equation](http://www.sciweavers.org/tex2img.php?eq=%20P_%7Bu%2Ci%7D%20%3D%20%20%20P%5E%7Bbaseline%7D_%7Bu%2Ci%7D%20%2B%20%20%5Cfrac%7B%20%5Csum%20s_%7Bj%7D%20%2A%20%28P_%7Bu%2Cj%7D%20-%20P%5E%7Bbaseline%7D_%7Bu%2Ci%7D%29%20%7D%7B%20%5Csum%20s_%7Bj%7D%20%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
     * Baseline prediction.
+    
       Baseline = all_mean + (user_mean - all_mean) + (item_mean - all_mean)
 
 * Make Recommendations
