@@ -75,3 +75,4 @@ Compare the different implemntations.
 * [Official content for Harvard CS109](https://github.com/cs109/content)
 * [Recommender systems](http://www.ibm.com/developerworks/library/os-recommender2/index.html)
 * [J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013.](http://i.stanford.edu/~julian/pdfs/www13.pdf)
+* [GroupLens](http://files.grouplens.org/papers/FnT%20CF%20Recsys%20Survey.pdf)
