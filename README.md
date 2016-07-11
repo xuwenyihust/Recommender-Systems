@@ -93,6 +93,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
   Can be better extended to large user bases than user-based CF.
   > Item–item CF generates predictions by using the user’s own ratings for other items  combined with 
   > those items’ similarities to the target item, rather than other users’ ratings and user similarities as in user–user CF.
+  
 * Pre-processing
     * Reduce the **sparsity** of the original dataset.
     * Split the **train/test** data.
