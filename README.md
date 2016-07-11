@@ -98,6 +98,9 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Reduce the **sparsity** of the original dataset.
     * Split the **train/test** data.
 
+* Compute item-to-item similarities
+    * Define a function to compute common user support.
+
 ## Comparison
 Compare the different implemntations.
 * Build the ROC curves.
