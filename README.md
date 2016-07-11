@@ -11,6 +11,16 @@ Different implementations of recommender system.
 
 ## Data
 * [Yelp Phoenix restaurant dataset](https://github.com/xuwenyihust/Restaurant-Recommendation-System/blob/master/data/bigdf.csv)
+| Column | Descriptions |
+| -------|--------------|
+| user_id | Unique user id |
+| business_id | Unique restaurant id |
+| stars | Star rating |
+| ... | ... |
+| business_avg | Average stars over all users reviews for business |
+| business_review_count | Review count for this restaurant |
+| user_avg | Average rating for this user over all businesses |
+
 * [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
 ### Data Sparsity
