@@ -89,6 +89,7 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
 
 <br/>
 ### Item Based Collaborative Filtering
+Can better extended to large user bases than user-based CF.
 
 ## Comparison
 Compare the different implemntations.
