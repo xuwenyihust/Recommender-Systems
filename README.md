@@ -11,6 +11,17 @@ Different implementations of recommender system.
 
 ## Data
 * [Yelp Phoenix restaurant dataset](https://github.com/xuwenyihust/Restaurant-Recommendation-System/blob/master/data/bigdf.csv)
+
+  | Column | Descriptions |
+  | -------|--------------|
+  | user_id | Unique user id |
+  | business_id | Unique restaurant id |
+  | stars | Star rating |
+  | ... | ... |
+  | business_avg | Average stars over all users reviews for business |
+  | business_review_count | Review count for this restaurant |
+  | user_avg | Average rating for this user over all businesses |
+
 * [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
 ### Data Sparsity
@@ -66,6 +77,10 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Baseline prediction.
     
       Baseline = all_mean + (user_mean - all_mean) + (item_mean - all_mean)
+      
+* **Error** Analysis
+    * Pick a number of random users and items we have the ratings in test dataset.
+    * Calculate the **RMSE**.
 
 ### Item Based Collaborative Filtering
 
