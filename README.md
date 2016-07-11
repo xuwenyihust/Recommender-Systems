@@ -11,6 +11,7 @@ Different implementations of recommender system.
 
 ## Data
 * [Yelp Phoenix restaurant dataset](https://github.com/xuwenyihust/Restaurant-Recommendation-System/blob/master/data/bigdf.csv)
+
 | Column | Descriptions |
 | -------|--------------|
 | user_id | Unique user id |
