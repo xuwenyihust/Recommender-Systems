@@ -21,6 +21,11 @@ Different implementations of recommender system.
   | business_avg | Average stars over all users reviews for business |
   | business_review_count | Review count for this restaurant |
   | user_avg | Average rating for this user over all businesses |
+  
+  ```python
+  >>> print(fulldf.shape)
+  (149319, 15)
+  ```
 
 * [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
