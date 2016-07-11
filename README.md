@@ -89,9 +89,9 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
 
 <br/>
 ### Item Based Collaborative Filtering
-Can better extended to large user bases than user-based CF.
-> Item–item CF generates predictions by using the user’s own ratings for other items  combined with 
-> those items’ similarities to the target item, rather than other users’ ratings and user similarities as in user–user CF.
+  Can better extended to large user bases than user-based CF.
+  > Item–item CF generates predictions by using the user’s own ratings for other items  combined with 
+  > those items’ similarities to the target item, rather than other users’ ratings and user similarities as in user–user CF.
 
 ## Comparison
 Compare the different implemntations.
