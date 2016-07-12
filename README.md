@@ -108,16 +108,11 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Define a function to find k items nearest to the given item.
 
 * Predict Ratings
-    *
+    * Weighted average of the neighboring user's ratings.
 
 * Error Analysis
     * Pick a number of random users and items we have the ratings in test dataset.
     * Calculate the **RMSE**.
-
-## Comparison
-Compare the different implemntations.
-* Build the ROC curves.
-* The curve with the highest AUC value will show the best implementation.
 
 ## Libraries Used
 * [pandas](http://pandas.pydata.org/)
