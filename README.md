@@ -104,8 +104,15 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
     * Build a **Database** in **sqlite** to store the item-to-item similarity matrix.
 
 * Find the K Nearest items
+    * Use a 'regularization' parameter to control the effect of small common user support.
+    * Define a function to find k items nearest to the given item.
+
 * Predict Ratings
+    *
+
 * Error Analysis
+    * Pick a number of random users and items we have the ratings in test dataset.
+    * Calculate the **RMSE**.
 
 ## Comparison
 Compare the different implemntations.
