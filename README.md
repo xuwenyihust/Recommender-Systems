@@ -100,6 +100,10 @@ The Amazon dataset is even more sparse than the Yelp dataset, and have much more
 
 * Compute item-to-item similarities
     * Define a function to compute common user support.
+    * Define a function to use Pearson's r to compute similarity.
+    * Build a **Database** in **sqlite** to store the item-to-item similarity matrix.
+
+* Find the K Nearest items
 
 ## Comparison
 Compare the different implemntations.
